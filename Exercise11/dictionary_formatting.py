@@ -21,4 +21,4 @@ for i, key in enumerate(age.keys(), 1):
     # the less that '<' shows left justified
     # hence the <15s is left justified with 10 string characters
     # f treats the argument as floats
-#     0 padding, 2 DECIMAL includes a decimal point
+    #0 padding, 2 DECIMAL includes a decimal point
