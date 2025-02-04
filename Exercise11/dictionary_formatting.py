@@ -14,7 +14,7 @@ age = { "John": 45, "Sarah" :40.5, "George": 67, "Charlotte": 80, "Lana": 20, "P
 for i, key in enumerate(age.keys(), 1):
 
     # Formatted string/f - strings help to simplify string formatting and interpolate
-    print(f"{i:2d} {key:15s} {age[key]: 02.1f} years")
+    print(f"{i:2d}. {key:15s} {age[key]: 02.1f} years")
     # these are type specifiers
     # d  specifies the argument as the integers and it explains the argument should have 2 digit space
     # s specifies the argument as the character string
