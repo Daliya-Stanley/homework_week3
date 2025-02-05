@@ -16,9 +16,9 @@ for i, key in enumerate(age.keys(), 1):
     # Formatted string/f - strings help to simplify string formatting and interpolate
     print(f"{i:2d}. {key:15s} {age[key]: 02.1f} years")
     # these are type specifiers
-    # d  specifies the argument as the integers and it explains the argument should have 2 digit space
+    # d  specifies the argument as the integer, it explains the argument should have 2 digit space
     # s specifies the argument as the character string
     # the less that '<' shows left justified
-    # hence the <15s is left justified with 10 string characters
+    # hence the <15s is left justified with 15 string characters
     # f treats the argument as floats
     #0 padding, 2 DECIMAL includes a decimal point

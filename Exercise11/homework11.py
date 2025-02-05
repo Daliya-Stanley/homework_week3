@@ -4,7 +4,7 @@ print(len(Belgium))
 # used to find out the length of the string Belgium
 
 print(Belgium)
-print("-" * 82 )
+print("-" * len(Belgium) )
 # used the output of the length of the string to use the number to multiply the operator
 # hence the operator overloading
 
